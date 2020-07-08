@@ -1,4 +1,5 @@
 import random
+from date import datetime
 
 random.seed()
 
@@ -15,4 +16,7 @@ for i in sort_names:
     txtOut = str(num) + ' ' + i[0] + "<br>\n"
     file_object.write(txtOut)
     num=num+1
+today = date.today()
+strtoday = today.strftime("%m/%d/%y")
+file_object.write(strtoday)
 file_object.close()
