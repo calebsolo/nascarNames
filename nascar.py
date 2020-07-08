@@ -17,6 +17,6 @@ for i in sort_names:
     file_object.write(txtOut)
     num=num+1
 today = date.today()
-strtoday = today.strftime("%m/%d/%y")
+strtoday = "<br><br>" + today.strftime("%m/%d/%y")
 file_object.write(strtoday)
 file_object.close()
