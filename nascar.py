@@ -1,5 +1,5 @@
 import random
-from date import datetime
+from datetime import date
 
 random.seed()
 
